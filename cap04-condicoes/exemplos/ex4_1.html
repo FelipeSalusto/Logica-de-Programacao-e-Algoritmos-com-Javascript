@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo 4.1</title>
+</head>
+<body>
+    <h1>Cálculo de Média das ACs</h1> <!--Adaptei esse exemplo do livro baseado no cálculo da média da minha faculdade-->
+    <h2>Faculdade Impacta</h2>
+    <form action="/">
+        <p>Aluno:
+            <input type="text" id="inNome" placeholder="Digite seu nome..." required>
+        </p>
+        <p>1° AC:
+            <input type="number" id="inNota1" min="0" max="10" step="0.1" required>
+        </p>
+        <p>2° AC:
+            <input type="number" id="inNota2" min="0" max="10" step="0.1" required>
+        </p>
+        <p>3° AC:
+            <input type="number" id="inNota3" min="0" max="10" step="0.1" required>
+        </p>
+        <input type="submit" value="Exibir Média">
+    </form>
+    <h2 id="outResp1"></h2>
+    <h3></h3>
+    <script src="js/ex4_1.js"></script>
+</body>
+</html>
