@@ -5,8 +5,10 @@ frm.addEventListener("submit", (e) => {
     e.preventDefault()
 
     const numero = Number(frm.inNumero.value)
+
     // Variável do tipo string para concatenar a resposta
     let resposta = ""
+
     // Cria um laço de repetição (i começa em 1 e é incrementado até 10)
     for (let i = 1; i <= 10; i++) {
         // A variável resposta vai acumulando os novos conteúdos (nos 2 formatos)
